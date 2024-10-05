@@ -5,6 +5,7 @@ import { useModal } from './stores/modal-store'
 import { useTheme } from './stores/theme-store'
 
 import ImageModalComponent from './components/modal/ImageModal-Component.vue'
+import LogoCommponent from './components/icons/Logo-Component.vue'
 
 const themeStore = useTheme()
 const modalStore = useModal()
@@ -22,4 +23,8 @@ const { selectedTheme } = storeToRefs(themeStore)
   </div>
 
   <ImageModalComponent :imgPath="imageToSee" v-if="openModal" />
+  <LogoCommponent
+    class="w-[700px] h-auto fixed bottom-[-3rem] right-[-22rem] z-[-10]"
+    :color="selectedTheme.bgLogoColor"
+  />
 </template>

@@ -46,13 +46,13 @@ const prev = () => {
 
     <BeforeButtonComponent
       @click="prev"
-      class="absolute w-16 h-16 left-0 top-1/2 transform -translate-y-1/2 text-white p-2 rounded-full"
+      class="absolute w-10 h-10 left-0 top-1/2 transform -translate-y-1/2 text-white p-2 rounded-full"
       :color="selectedTheme.fontColor"
       v-if="images.length > 1"
     />
 
     <NextButtonComponent
-      class="absolute w-16 h-16 right-0 top-1/2 transform -translate-y-1/2 text-white p-2 rounded-full"
+      class="absolute w-10 h-10 right-0 top-1/2 transform -translate-y-1/2 text-white p-2 rounded-full"
       @click="next"
       :color="selectedTheme.fontColor"
       v-if="images.length > 1"

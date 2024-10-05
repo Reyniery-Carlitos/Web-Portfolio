@@ -1,8 +1,8 @@
 {
   "fullname": "Carlos Reyniery Rubio Dominguez",
   "name": "Carlos Rubio",
-  "title": "Hola, soy Carlos Rubio y soy un desarrollador fullstack",
-  "description": "Desarrollador Jr. Full Stack de Tegucigalpa, Honduras 🇭🇳. Apasionado por la programación y la creación de aplicaciones web.",
+  "title": "Traer ideas a codigo. 💥",
+  "description": "Desarrollador Jr. Full Stack de Tegucigalpa, Honduras 🇭🇳.",
   "navItems": ["Intro", "Habilidades", "Proyectos", "Contactame"],
   "cv": "/CV-Carlos Reyniery Rubio.pdf",
   "social": {
@@ -101,7 +101,7 @@
           "/assets/imgs/rest-countries/4.png",
           "/assets/imgs/rest-countries/5.png"
         ],
-        "title": "Rest countries",
+        "title": "Rest Countries",
         "description": "Una aplicación que proporciona información detallada sobre países de todo el mundo.",
         "tags": ["Web", "Frontend", "Vuejs", "Tailwind"],
         "urls": [
@@ -117,7 +117,7 @@
       },
       {
         "img": "/assets/imgs/pokedex/d1.png",
-        "imgs": [],
+        "imgs": ["/assets/imgs/pokedex/d1.png"],
         "title": "Pokedex",
         "description": "Una aplicación que muestra información sobre Pokémon usando POKEAPI con filtro de busqueda y filtro de pokemones por tipo.",
         "tags": ["Web", "Frontend", "Vuejs", "Tailwind", "Pinia"],
@@ -158,13 +158,7 @@
       },
       {
         "img": "/assets/imgs/wheater-app-1.png",
-        "imgs": [
-          "/assets/imgs/rest-countries/1.png",
-          "/assets/imgs/rest-countries/2.png",
-          "/assets/imgs/rest-countries/3.png",
-          "/assets/imgs/rest-countries/4.png",
-          "/assets/imgs/rest-countries/5.png"
-        ],
+        "imgs": ["/assets/imgs/wheater-app/1.png"],
         "title": "Aplicación del tiempo",
         "description": "Una aplicación meteorológica intuitiva que proporciona pronósticos detallados sobre el tiempo en una región específica.",
         "tags": ["Web", "Reactjs", "Frontend", "Tailwind"],
@@ -181,13 +175,7 @@
       },
       {
         "img": "/assets/imgs/password-generator-1.png",
-        "imgs": [
-          "/assets/imgs/rest-countries/1.png",
-          "/assets/imgs/rest-countries/2.png",
-          "/assets/imgs/rest-countries/3.png",
-          "/assets/imgs/rest-countries/4.png",
-          "/assets/imgs/rest-countries/5.png"
-        ],
+        "imgs": ["/assets/imgs/password-generator/1.png"],
         "title": "Generador de contraseñas",
         "description": "Una aplicación que genera contraseñas de forma aleatoria en función de la longitud y caracteres a ser considerarados.",
         "tags": ["CSS", "HTML", "Javascript", "Web", "Frontend"],
@@ -204,13 +192,7 @@
       },
       {
         "img": "/assets/imgs/task-management-2.png",
-        "imgs": [
-          "/assets/imgs/rest-countries/1.png",
-          "/assets/imgs/rest-countries/2.png",
-          "/assets/imgs/rest-countries/3.png",
-          "/assets/imgs/rest-countries/4.png",
-          "/assets/imgs/rest-countries/5.png"
-        ],
+        "imgs": ["/assets/imgs/task-management/1.png", "/assets/imgs/task-management/2.png"],
         "title": "Gestor de tareas",
         "description": "Una aplicación dedicada a la gestión y asignación de tareas.",
         "tags": ["Web", "Fullstack", "Frontend", "Vuejs", "Laravel", "Tailwind"],
@@ -227,13 +209,7 @@
       },
       {
         "img": "/assets/imgs/currency-converter-1.png",
-        "imgs": [
-          "/assets/imgs/rest-countries/1.png",
-          "/assets/imgs/rest-countries/2.png",
-          "/assets/imgs/rest-countries/3.png",
-          "/assets/imgs/rest-countries/4.png",
-          "/assets/imgs/rest-countries/5.png"
-        ],
+        "imgs": ["/assets/imgs/currency-converter/1.png"],
         "title": "Conversor de divisas",
         "description": "Conversor de divisas usando teoria de compiladores.",
         "tags": ["PyQt5", "Python", "Matplotlib", "Escritorio"],
@@ -250,13 +226,7 @@
       },
       {
         "img": "/assets/imgs/minesweeper-1.png",
-        "imgs": [
-          "/assets/imgs/rest-countries/1.png",
-          "/assets/imgs/rest-countries/2.png",
-          "/assets/imgs/rest-countries/3.png",
-          "/assets/imgs/rest-countries/4.png",
-          "/assets/imgs/rest-countries/5.png"
-        ],
+        "imgs": ["/assets/imgs/minesweeper/1.png"],
         "title": "Buscaminas",
         "description": "Juego buscaminas",
         "tags": ["CSS", "HTML", "Javascript", "Juegos"],
@@ -273,13 +243,7 @@
       },
       {
         "img": "/assets/imgs/tic-tac-toe-1.png",
-        "imgs": [
-          "/assets/imgs/rest-countries/1.png",
-          "/assets/imgs/rest-countries/2.png",
-          "/assets/imgs/rest-countries/3.png",
-          "/assets/imgs/rest-countries/4.png",
-          "/assets/imgs/rest-countries/5.png"
-        ],
+        "imgs": ["/assets/imgs/tic-tac-toe/1.png"],
         "title": "Tic Tac Toe",
         "description": "Juego Tic Tac Toe",
         "tags": ["CSS", "HTML", "Reactjs", "Frontend", "Juegos"],
