@@ -1,0 +1,304 @@
+{
+  "fullname": "Carlos Reyniery Rubio Dominguez",
+  "name": "Carlos Rubio",
+  "title": "Hola, soy Carlos Rubio y soy un desarrollador fullstack",
+  "description": "Desarrollador Jr. Full Stack de Tegucigalpa, Honduras 🇭🇳. Apasionado por la programación y la creación de aplicaciones web.",
+  "navItems": ["Intro", "Habilidades", "Proyectos", "Contactame"],
+  "cv": "/CV-Carlos Reyniery Rubio.pdf",
+  "social": {
+    "telegram": "https://t.me/KrlitoxR",
+    "github": "https://github.com/reyniery-carlitos",
+    "email": "carlosreyniery@gmail.com",
+    "linkedin": "https://www.linkedin.com/in/carlos-reyniery-rubio-dom%C3%ADnguez-2435b9136/",
+    "whatsapp": "https://wa.me/50432923191"
+  },
+  "skills": {
+    "title": "Habilidades",
+    "description": "Algunas tecnologias con las que he trabajado",
+    "info": [
+      {
+        "name": "HTML5",
+        "url": "https://developer.mozilla.org/en-US/docs/Web/HTML",
+        "img": ""
+      },
+      {
+        "name": "CSS",
+        "url": "https://developer.mozilla.org/en-US/docs/Web/CSS",
+        "img": ""
+      },
+      {
+        "name": "Javascript",
+        "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript",
+        "img": ""
+      },
+      {
+        "name": "Typescript",
+        "url": "https://www.typescriptlang.org/docs/",
+        "img": ""
+      },
+      {
+        "name": "ReactJS",
+        "url": "https://react.dev/",
+        "img": ""
+      },
+      {
+        "name": "VueJS",
+        "url": "https://vuejs.org/guide/introduction",
+        "img": ""
+      },
+      {
+        "name": "TailwindCSS",
+        "url": "https://tailwindcss.com/",
+        "img": ""
+      },
+      {
+        "name": "Bootstrap",
+        "url": "https://getbootstrap.com/docs/4.1/getting-started/introduction/",
+        "img": ""
+      },
+      {
+        "name": "NodeJS",
+        "url": "https://nodejs.org/docs/latest/api/",
+        "img": ""
+      },
+      {
+        "name": "Express",
+        "url": "https://expressjs.com/",
+        "img": ""
+      },
+      {
+        "name": "Laravel",
+        "url": "https://laravel.com/docs/11.x/readme",
+        "img": ""
+      },
+      {
+        "name": "GIT",
+        "url": "https://git-scm.com/",
+        "img": ""
+      },
+      {
+        "name": "Python",
+        "url": "https://docs.python.org/3/",
+        "img": ""
+      },
+      {
+        "name": "Mysql",
+        "url": "https://dev.mysql.com/doc/",
+        "img": ""
+      }
+    ]
+  },
+  "projects": {
+    "title": "Proyectos",
+    "description": "Algunos proyectos personales creados para demostrar mis capacidades como desarrollador.",
+    "info": [
+      {
+        "img": "/assets/imgs/rest-countries-1.png",
+        "imgs": [
+          "/assets/imgs/rest-countries/1.png",
+          "/assets/imgs/rest-countries/2.png",
+          "/assets/imgs/rest-countries/3.png",
+          "/assets/imgs/rest-countries/4.png",
+          "/assets/imgs/rest-countries/5.png"
+        ],
+        "title": "Rest countries",
+        "description": "Una aplicación que proporciona información detallada sobre países de todo el mundo.",
+        "tags": ["Web", "Frontend", "Vuejs", "Tailwind"],
+        "urls": [
+          {
+            "title": "Github",
+            "url": "https://github.com/Reyniery-Carlitos/Rest-Countries"
+          },
+          {
+            "title": "Live",
+            "url": "https://rest-countries-app-beta.vercel.app/"
+          }
+        ]
+      },
+      {
+        "img": "/assets/imgs/pokedex/d1.png",
+        "imgs": [],
+        "title": "Pokedex",
+        "description": "Una aplicación que muestra información sobre Pokémon usando POKEAPI con filtro de busqueda y filtro de pokemones por tipo.",
+        "tags": ["Web", "Frontend", "Vuejs", "Tailwind", "Pinia"],
+        "urls": [
+          {
+            "title": "Github",
+            "url": "https://github.com/Reyniery-Carlitos/pokedex"
+          },
+          {
+            "title": "Live",
+            "url": "https://pokedex-carlos-rubio.vercel.app/"
+          }
+        ]
+      },
+      {
+        "img": "/assets/imgs/rock-papper-scissor/d1.png",
+        "imgs": [
+          "/assets/imgs/rock-papper-scissor/d1.png",
+          "/assets/imgs/rock-papper-scissor/d2.png",
+          "/assets/imgs/rock-papper-scissor/d3.png",
+          "/assets/imgs/rock-papper-scissor/d4.png",
+          "/assets/imgs/rock-papper-scissor/d5.png",
+          "/assets/imgs/rock-papper-scissor/d6.png"
+        ],
+        "title": "Juego piedra papel o tijera",
+        "description": "Juego piedra, papel, tijera, lagartija",
+        "tags": ["CSS", "HTML", "Vuejs", "Frontend", "Games", "Pinia", "TailwindCSS", "VueRouter"],
+        "urls": [
+          {
+            "title": "Github",
+            "url": "https://github.com/Reyniery-Carlitos/rock-papper-scissor"
+          },
+          {
+            "title": "Live",
+            "url": "https://rock-papper-scissor-six.vercel.app/"
+          }
+        ]
+      },
+      {
+        "img": "/assets/imgs/wheater-app-1.png",
+        "imgs": [
+          "/assets/imgs/rest-countries/1.png",
+          "/assets/imgs/rest-countries/2.png",
+          "/assets/imgs/rest-countries/3.png",
+          "/assets/imgs/rest-countries/4.png",
+          "/assets/imgs/rest-countries/5.png"
+        ],
+        "title": "Aplicación del tiempo",
+        "description": "Una aplicación meteorológica intuitiva que proporciona pronósticos detallados sobre el tiempo en una región específica.",
+        "tags": ["Web", "Reactjs", "Frontend", "Tailwind"],
+        "urls": [
+          {
+            "title": "Github",
+            "url": "https://github.com/Reyniery-Carlitos/weather-app"
+          },
+          {
+            "title": "Live",
+            "url": "https://weather-app-carlos-rubio.vercel.app/"
+          }
+        ]
+      },
+      {
+        "img": "/assets/imgs/password-generator-1.png",
+        "imgs": [
+          "/assets/imgs/rest-countries/1.png",
+          "/assets/imgs/rest-countries/2.png",
+          "/assets/imgs/rest-countries/3.png",
+          "/assets/imgs/rest-countries/4.png",
+          "/assets/imgs/rest-countries/5.png"
+        ],
+        "title": "Generador de contraseñas",
+        "description": "Una aplicación que genera contraseñas de forma aleatoria en función de la longitud y caracteres a ser considerarados.",
+        "tags": ["CSS", "HTML", "Javascript", "Web", "Frontend"],
+        "urls": [
+          {
+            "title": "Github",
+            "url": "https://github.com/Reyniery-Carlitos/password-generator-app"
+          },
+          {
+            "title": "Live",
+            "url": "https://reyniery-carlitos.github.io/password-generator-app/"
+          }
+        ]
+      },
+      {
+        "img": "/assets/imgs/task-management-2.png",
+        "imgs": [
+          "/assets/imgs/rest-countries/1.png",
+          "/assets/imgs/rest-countries/2.png",
+          "/assets/imgs/rest-countries/3.png",
+          "/assets/imgs/rest-countries/4.png",
+          "/assets/imgs/rest-countries/5.png"
+        ],
+        "title": "Gestor de tareas",
+        "description": "Una aplicación dedicada a la gestión y asignación de tareas.",
+        "tags": ["Web", "Fullstack", "Frontend", "Vuejs", "Laravel", "Tailwind"],
+        "urls": [
+          {
+            "title": "Github",
+            "url": "https://github.com/Reyniery-Carlitos/Task-Management-App"
+          },
+          {
+            "title": "Live",
+            "url": ""
+          }
+        ]
+      },
+      {
+        "img": "/assets/imgs/currency-converter-1.png",
+        "imgs": [
+          "/assets/imgs/rest-countries/1.png",
+          "/assets/imgs/rest-countries/2.png",
+          "/assets/imgs/rest-countries/3.png",
+          "/assets/imgs/rest-countries/4.png",
+          "/assets/imgs/rest-countries/5.png"
+        ],
+        "title": "Conversor de divisas",
+        "description": "Conversor de divisas usando teoria de compiladores.",
+        "tags": ["PyQt5", "Python", "Matplotlib", "Escritorio"],
+        "urls": [
+          {
+            "title": "Github",
+            "url": "https://github.com/Reyniery-Carlitos/Conversor-de-divisas"
+          },
+          {
+            "title": "Live",
+            "url": ""
+          }
+        ]
+      },
+      {
+        "img": "/assets/imgs/minesweeper-1.png",
+        "imgs": [
+          "/assets/imgs/rest-countries/1.png",
+          "/assets/imgs/rest-countries/2.png",
+          "/assets/imgs/rest-countries/3.png",
+          "/assets/imgs/rest-countries/4.png",
+          "/assets/imgs/rest-countries/5.png"
+        ],
+        "title": "Buscaminas",
+        "description": "Juego buscaminas",
+        "tags": ["CSS", "HTML", "Javascript", "Juegos"],
+        "urls": [
+          {
+            "title": "Github",
+            "url": "https://github.com/Reyniery-Carlitos/minesweeper"
+          },
+          {
+            "title": "Live",
+            "url": ""
+          }
+        ]
+      },
+      {
+        "img": "/assets/imgs/tic-tac-toe-1.png",
+        "imgs": [
+          "/assets/imgs/rest-countries/1.png",
+          "/assets/imgs/rest-countries/2.png",
+          "/assets/imgs/rest-countries/3.png",
+          "/assets/imgs/rest-countries/4.png",
+          "/assets/imgs/rest-countries/5.png"
+        ],
+        "title": "Tic Tac Toe",
+        "description": "Juego Tic Tac Toe",
+        "tags": ["CSS", "HTML", "Reactjs", "Frontend", "Juegos"],
+        "urls": [
+          {
+            "title": "Github",
+            "url": "https://github.com/Reyniery-Carlitos/TicTacToe-Game"
+          },
+          {
+            "title": "Live",
+            "url": ""
+          }
+        ]
+      }
+    ]
+  },
+  "tags": ["Todas", "Web", "Fullstack", "Frontend", "Juegos", "Escritorio"],
+  "footer": {
+    "createdWith": "Creado con VueJS y Typescript",
+    "createdBy": "Creado con el ❤️ por "
+  }
+}
