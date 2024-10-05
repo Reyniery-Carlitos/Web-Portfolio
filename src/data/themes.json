@@ -2,11 +2,11 @@
   "dark": {
     "fontColor": "#FFF",
     "bgColor": "#0e0e0e",
-    "hoverImage": "#2C3E50"
+    "bgLogoColor": "#232323"
   },
   "light": {
     "fontColor": "#000",
     "bgColor": "#FFF",
-    "hoverImage": "#f3f4f6"
+    "bgLogoColor": "#e8e8e8"
   }
 }

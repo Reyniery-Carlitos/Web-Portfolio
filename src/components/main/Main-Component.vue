@@ -3,13 +3,22 @@ import { storeToRefs } from 'pinia'
 
 import SocialComponent from '../header/Social-Component.vue'
 import { usePersonal } from '@/stores/personal-store'
+import { useTheme } from '@/stores/theme-store'
 import { ref, type Ref } from 'vue'
+import DotsComponent from '../icons/Dots-Component.vue'
 
 const storePersonal = usePersonal()
+const storeTheme = useTheme()
 
 const { personalInfo } = storeToRefs(storePersonal)
+const { selectedTheme } = storeToRefs(storeTheme)
 
 const seeMore: Ref<boolean> = ref(false)
+const showLang: Ref<boolean> = ref(false)
+
+function showLangs() {
+  showLang.value = !showLang.value
+}
 
 function toggleSeeMore() {
   seeMore.value = !seeMore.value
@@ -72,9 +81,29 @@ function toggleSeeMore() {
       </p>
     </div>
 
-    <div class="flex gap-2 px-5 items-center">
-      <button class="border border-slate-600 rounded-lg px-2 py-1">Curriculum</button>
-      <SocialComponent />
+    <div class="px-5 flex items-center gap-2">
+      <div class="flex gap-2 items-center">
+        <a
+          class="border border-slate-600 rounded-lg px-2 py-1"
+          :href="personalInfo.cv"
+          target="_blank"
+          >Curriculum</a
+        >
+        <SocialComponent />
+      </div>
+
+      <div class="relative top-0 right-0">
+        <DotsComponent :color="selectedTheme.fontColor" class="w-5 h-5" @click="showLangs" />
+
+        <div
+          class="flex flex-col items-center rounded-lg px-10 font-semibold py-2 gap-2 absolute shadow-lg"
+          :style="{ backgroundColor: selectedTheme.bgColor }"
+          v-if="showLang"
+        >
+          <span @click="storePersonal.toggleLang('EN')" class="cursor-pointer"> EN </span>
+          <span @click="storePersonal.toggleLang('ES')" class="cursor-pointer"> ES </span>
+        </div>
+      </div>
     </div>
   </main>
 </template>

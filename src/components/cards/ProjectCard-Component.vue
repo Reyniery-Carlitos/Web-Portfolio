@@ -37,7 +37,7 @@ function redirectTo(url: string) {
       <div class="mt-2 flex flex-col gap-2">
         <h2 class="text-2xl font-bold">{{ title }}</h2>
         <p class="text-md">
-          {{ title }}
+          {{ description }}
         </p>
 
         <ul class="flex gap-2 flex-wrap">
