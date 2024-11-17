@@ -7,7 +7,7 @@ export interface Personal {
   cv: string
   social: Social
   education: Education
-  courses: Course[]
+  courses: Course
   skills: Skills
   projects: Projects
   tags: string[]
@@ -77,7 +77,7 @@ export interface Education {
   title: string
   primary: EducationTypes
   secondary: EducationTypes
-  Superior: EducationTypes
+  superior: EducationTypes
 }
 
 export interface EducationTypes {
