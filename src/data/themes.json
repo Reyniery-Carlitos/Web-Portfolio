@@ -1,12 +1,16 @@
 {
   "dark": {
     "fontColor": "#FFF",
-    "bgColor": "#0e0e0e",
-    "bgLogoColor": "#232323"
+    "bgColor": "#1E1E1E",
+    "bgLogoColor": "#232323",
+    "bgTagColor": "#232323",
+    "borderTagColor": "#FFF"
   },
   "light": {
     "fontColor": "#000",
     "bgColor": "#FFF",
-    "bgLogoColor": "#e8e8e8"
+    "bgLogoColor": "#e8e8e8",
+    "bgTagColor": "#f8f9f9",
+    "borderTagColor": "#000"
   }
 }

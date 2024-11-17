@@ -12,6 +12,50 @@
     "linkedin": "https://www.linkedin.com/in/carlos-reyniery-rubio-dom%C3%ADnguez-2435b9136/",
     "whatsapp": "https://wa.me/50432923191"
   },
+  "education": {
+    "title": "Education",
+    "primary": {
+      "institute": "Republica de Francia School",
+      "date": "Feb. 2008 - Nov. 2013",
+      "description": "Class of 2013, Graduated with academic excellence.",
+      "degree": ""
+    },
+    "secondary": {
+      "institute": "Instituto Superación San Francisco",
+      "date": "Feb. 2014 - Nov. 2019",
+      "description": "Class of 2019, Graduate with academic excellence",
+      "degree": "Professional Computer Technician"
+    },
+    "superior": {
+      "institute": "Universidad Nacional Autónoma de Honduras (UNAH)",
+      "date": "Jan. 2020 - Present",
+      "description": "Academic excellence throughout the years.",
+      "degree": "Systems Engineering"
+    }
+  },
+  "courses": {
+    "title": "Courses Received",
+    "coursesData": [
+      {
+        "title": "English Module I and II"
+      },
+      {
+        "title": "Complete Oracle Academy Database Certification"
+      },
+      {
+        "title": "Complete Oracle Next Education Program Certification"
+      },
+      {
+        "title": "SOLID Principles (Udemy)"
+      },
+      {
+        "title": "Git and Github (Udemy)"
+      },
+      {
+        "title": "CCNA1 Cisco"
+      }
+    ]
+  },
   "skills": {
     "title": "Skills",
     "description": "Some technologies I have worked with",
