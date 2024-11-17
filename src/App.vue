@@ -16,7 +16,7 @@ const { selectedTheme } = storeToRefs(themeStore)
 
 <template>
   <div
-    class="w-full h-screen lg:w-3/5 xl:w-3/6 m-auto"
+    class="w-full h-screen lg:w-3/5 xl:w-2/5 m-auto"
     :style="{ backgroundColor: selectedTheme.bgColor, color: selectedTheme.fontColor }"
   >
     <RouterView />

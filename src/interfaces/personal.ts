@@ -6,6 +6,8 @@ export interface Personal {
   navItems: string[]
   cv: string
   social: Social
+  education: Education
+  courses: Course[]
   skills: Skills
   projects: Projects
   tags: string[]
@@ -60,4 +62,27 @@ export interface Social {
 export interface CounterTag {
   title: string
   quantity: number
+}
+
+export interface Course {
+  title: string
+  coursesData: CourseData[]
+}
+
+export interface CourseData {
+  title: string
+}
+
+export interface Education {
+  title: string
+  primary: EducationTypes
+  secondary: EducationTypes
+  Superior: EducationTypes
+}
+
+export interface EducationTypes {
+  institute: string
+  date: string
+  description: string
+  degree: string
 }

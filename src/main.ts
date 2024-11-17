@@ -8,6 +8,7 @@ import AboutComponent from './views/About-Component.vue'
 
 import App from './App.vue'
 import { createRouter, createWebHistory } from 'vue-router'
+import StudiesComponent from './views/Studies-Component.vue'
 
 const routes = [
   {
@@ -17,6 +18,10 @@ const routes = [
   {
     path: '/about',
     component: AboutComponent
+  },
+  {
+    path: '/studies',
+    component: StudiesComponent
   }
 ]
 
