@@ -31,11 +31,11 @@ function redirectTo(url: string) {
   <div class="w-full px-5 py-3 mt-2 flex gap-2 hover:rounded-lg" :class="currentTheme">
     <img class="w-10 h-10 rounded-full items-center" src="/public/formal.png" alt="Formal photo" />
 
-    <div class="w-full flex flex-col justify-around gap-2">
+    <div class="w-full flex flex-col justify-around gap-1">
       <p class="text-sm">{{ name }} 😎</p>
 
-      <div class="mt-2 flex flex-col gap-2">
-        <h2 class="text-lg font-medium">{{ title }}</h2>
+      <div class="flex flex-col gap-2">
+        <h2 class="text-md font-medium">{{ title }}</h2>
         <p class="text-sm">
           {{ description }}
         </p>
